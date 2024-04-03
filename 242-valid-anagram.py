@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/valid-anagram/description/
 
+# Average Runtime: 43.2 ms
+# Average Memory: 17.34 MB
+
 def isAnagram(s: str, t: str) -> bool:
     s_set = set(s)
     if len(s) != len(t):

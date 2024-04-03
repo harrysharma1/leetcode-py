@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/contains-duplicate/description/
 
+# Averge Runtime: 418.8 ms
+# Average Memory: 32 MB
+
 def containsDuplicate(nums: list[int]) -> bool:
     a = list(set(nums))
     return len(a) != len(nums)
