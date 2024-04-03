@@ -1,3 +1,5 @@
+# https://leetcode.com/problems/contains-duplicate/description/
+
 def containsDuplicate(nums: list[int]) -> bool:
     a = list(set(nums))
     return len(a) != len(nums)
